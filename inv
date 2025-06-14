@@ -1,0 +1,9 @@
+[masters]
+master.rke.gebz.local
+
+[workers]
+w-0[1:2].rke.gebz.local
+
+[k8s_cluster:children]
+masters
+workers
